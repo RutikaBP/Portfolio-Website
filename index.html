@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- -----------------------------Home Page------------------------------ -->
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <div class="navigation">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <!-- <li><a href="#resume">Resume</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="home">
+        <div class="Hey">
+            <p>Hey, <span>I'm Rutika</span>. <br />An Engineering Student.</p>
+        </div>
+        <!-- /////////////////////////////////////// grid introbox ////////////////////////////// -->
+        <div class="grid-container">
+            <div>
+                <p class="lines">--------------------------------</p>
+                <p class="intro"><span class="name">Rutika Patil (She/her),</span> <br><br> Reva University Student
+                    |
+                    Pursuing
+                    Btech in Computer Science and Information Technology | <br>Web Development Enthusiast |<br>
+                    Seeking
+                    Opportunities to Grow</p>
+                <p class="lines">--------------------------------</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------About Section-------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo-need.jpeg" alt="something is wrong!">
+                </div>
+                <div class="about-col-2">
+                    <h3 class="sub-title">About Me</h3><br><br>
+                    <p class="sub-title2">"Hello there! I'm <span class="name-color1">Rutika Babasab Patil</span>, a web
+                        developer with a passion for crafting beautiful and functional websites. From an early age, I
+                        found joy in drawing and painting, nurturing my creative spirit. Now, as a web developer, I
+                        bring that same artistic flair to my work, designing seamless user interfaces and engaging
+                        experiences. With a love for learning and an eye for detail, I'm excited to embark on new
+                        projects and continue evolving as a developer.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents skills" id="Skills">
+                        <ul>
+                            <li><span>Languages : <br></span> - Python </li>
+                            <li><span>DSA Sorting Algorithms: <br></span>- Quick Sort 
+                               <br>- Merge Sort 
+                               <br>- Radix Sort 
+                               <br>- Selection Sort 
+                               <br>- Insertion Sort 
+                               <br>- Bubble Sort</li>
+                            <li><span>Interpersonal Skills : <br></span> - Time Management
+                              <br> - Attention to Detail
+                              <br>- Teamwork
+                              <br>- Adaptability
+                              <br> - Continuous Learning
+                              <br> - Professionalism </li>
+                            <li><span> Web Development : <br></span> - HTML 
+                               <br> - CSS 
+                               <br> - JavaScript
+                               <br> - UI/UX
+                               <br> - Figma</li>
+                            <li><span>Development Tools:<br></span> - Visual Studio Code
+                                <br> - Git
+                                <br> - GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Education">
+                        <ul>
+                            <li><span>B.Tech, Computer Science & Technology</span><br>
+                                <br>Reva University<br>
+                                <br>2020 - 2024<br>
+                                <br>CGPA: 8.58/10<br>
+                            </li>
+
+                            <li><span>Senior Secondary (XII), Science</span><br>
+                                <br>Tungal Science Composite PU College, JAMAKHANDI<br>
+                                <br>(DEPARTMENT OF PRE-UNIVERSITY EDUCATION board)<br>
+                                <br>Year of completion: 2020<br>
+                                <br>Percentage: 84.33%<br>
+                            </li>
+
+                            <li><span>Secondary (X)</span><br>
+                                <br>Proudha Vidya Mandir Shedbal<br>
+                                <br>(KARNATAKA SECONDARY EDUCATION EXAMINATION BOARD board)<br>
+                                <br>Year of completion: 2018<br>
+                                <br>Percentage: 93.60%<br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------  Projects  ------------------------>
+    <div id="projects">
+        <div class="container">
+            <h3 class="sub-title-2">Projects</h3>
+            <div class="project-list">
+                <div>
+                    <h2>Gym Management System</h2><br>
+                    <p>An Efficient Gym Management System Website.
+                        The end result is a simplified gym operation for users, Simplifying
+                        to enhance user experience.with a user friendly UI and UX</p><br>
+                    <!-- <a href="#" class="link-anchor"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+                <div>
+                    <h2>Hungry Snake</h2><br>
+                    <p>Hungry Snake is a web-based project where I've recreated the beloved Snake Game that many of us cherished on old Nokia phones. I tried to bring back the simple joy of this classic game, Aimed to capture the simplicity and fun of the original game.</p><br><br>
+                    <!-- <a href="#" class="link-anchor"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+                <div>
+                    <h2>UI/UX Research Paper</h2><br>
+                    <p>This is a UI/UX-based project where I tried to analyze and explore how the famous brand
+                        Dove uses UI/UX. Explored attraction strategies, marketing impact,
+                        user-centered design. An incredible learning experience, understanding how UI/UX plays a pivotal
+                        role in the success of a project, brand and app.</p><br>
+                    <!-- <a href="#" class="link-anchor"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <a href="#" class="btn">See More</a> -->
+
+    <!-- =====================  Contact ===================== -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <h3 class="sub-title-2 title-3">Contact Me</h3>
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-envelope"></i>rutikapatilbp@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8105973108</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rutikabpatil07"><i
+                                class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                    </div>
+                    <a href="RESUME-(RUTIKAN).pdf" download id="resume" class="btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2 btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-up">
+            <a href="#" id="home"><i class="fa-solid fa-angles-up fa-beat"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Rutika.</p>
+        </div>
+    </div>
+
+    <!----------------------  JS for About  ------------------------>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("skills")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("skills")
+        }
+    </script>
+
+    <!-- ///////////////////////  Form submisiion Sheet  ////////////////// -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwBWeuw38sC3NbtzlUHR72y8kKfm1utTqqxDw4Hgh9Awakjy2XbdLp4-sOOp3m8PbSOXQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+   
+</body>
+
+</html>
