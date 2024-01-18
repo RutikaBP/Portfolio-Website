@@ -270,10 +270,19 @@ p {
     transform: translateY(-10px);
     color: rgb(240, 219, 191);
 }
-.b2{
-    margin: 10px 0 0 100px;
+ .b2{
+    display: inline-block;
+    background:rgb(33, 91, 95);
+    color: rgb(240, 219, 191) ;
+    margin: 10px 0 0 75px;
+    width: fit-content;
+    border: 2px solid rgb(77, 58, 58);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16.7px;
+    font-family: 'Caprasimo', cursive;
 }
-
 /* =====================  Contact =================== */
 #contact{
     margin-top: 190px;
