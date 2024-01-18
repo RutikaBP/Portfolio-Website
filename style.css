@@ -265,53 +265,14 @@ p {
     font-family: 'Caprasimo', cursive;
 }
 
-/* .link-anchor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40%;
-    color:rgb(51, 139, 144) ;
-    text-decoration: none; */
-    /* font-size: 18px; */
-    /* line-height: 60px; */
-    /* background-color: rgb(240, 219, 191); */
-    /* width: 60px; */
-    /* height: 60px; */
-    /* border-radius: 50%; */
-/* } */
-
 .project-list div:hover {
     background-color:rgb(51, 139, 144) ;
     transform: translateY(-10px);
     color: rgb(240, 219, 191);
 }
-
-/* .link-anchor:hover{
-    background:gray;
-    color:  rgb(240, 219, 191);
-} */
-
-/* .btn{
-    margin: 50px auto;
-    display: block;
-    width: fit-content;
-    border: 2px solid rgb(77, 58, 58);
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color:rgb(45, 104, 107);
-    transition: transform 0.5s;
-    font-size: 16.7px;
-    font-family: 'Caprasimo', cursive;
+.b2{
+    margin: 10px 0 0 75px;
 }
-
-.btn:hover{
-    background: rgb(51, 139, 144);
-    color: rgb(46, 23, 23);
-    padding: 14px 45px;
-    font-size: 19px;
-    border-radius: 8px;
-} */
 
 /* =====================  Contact =================== */
 #contact{
